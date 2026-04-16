@@ -1,0 +1,16 @@
+{
+  "name": "shelly-telegram-bot",
+  "version": "1.0.0",
+  "description": "Shelly AI assistant Telegram bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
